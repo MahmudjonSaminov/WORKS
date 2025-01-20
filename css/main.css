@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Open Sans", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  padding: 15px 25px;
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  color: white;
+}
+.btn:hover {
+  background-color: lime;
+  color: black;
+  cursor: pointer;
+}
+
+nav {
+  padding: 15px 10px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 1px;
+}
+nav .nav_display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav_display ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.hero {
+  background-color: white;
+  margin-top: 100px;
+}
+.hero .hero_display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .hero_info {
+  width: 478px;
+}
+.hero .hero_info h1, .hero .hero_info p {
+  margin-bottom: 25px;
+}
+
+.sec_one {
+  margin-top: 150px;
+}
+.sec_one .se_on_let {
+  text-align: center;
+}
+.sec_one .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  gap: 70px;
+  text-align: center;
+  justify-content: center;
+}
+.sec_one .cards .card {
+  text-align: center;
+  width: 280px;
+  box-shadow: 0px 0px 5px 1px;
+  padding: 10px 0px;
+  transition: all 0.3s ease;
+}
+.sec_one .cards .card:hover {
+  background-color: orange;
+  color: white;
+}
+.sec_one .cards .card .h3, .sec_one .cards .card .p {
+  margin-bottom: 10px;
+}
+.sec_one .cards .card .h3 h3, .sec_one .cards .card .p h3 {
+  margin-top: 10px;
+}
+.sec_one .buts {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.sec_two {
+  margin-top: 100px;
+}
+.sec_two .se_tw_let {
+  text-align: center;
+}
+.sec_two .se_tw_let h1 {
+  margin-bottom: 20px;
+}
+.sec_two .box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.sec_two .box h4 {
+  margin-bottom: 10px;
+}
+.sec_two .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sec_thr {
+  margin-top: 60px;
+  color: white;
+}
+.sec_thr .container {
+  background-color: #00BAFC;
+  padding: 35px 0px;
+}
+.sec_thr .se_thr_let {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.sec_thr .se_thr_let h1 {
+  margin-bottom: 10px;
+}
+.sec_thr .pacman {
+  background-color: white;
+  color: black;
+  width: 340px;
+  margin-top: 40px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+.sec_thr .pacman .in {
+  padding: 10px 0px;
+  text-align: center;
+}
+.sec_thr .pacman .in input {
+  padding: 14px 20px;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+}
+.sec_thr .pacman .btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bars {
+  display: none;
+}
+
+footer .container {
+  padding: 50px;
+  background-color: #191919;
+  color: white;
+}
+footer .container p {
+  color: gray;
+}
+footer .container h4 {
+  margin-bottom: 10px;
+}
+footer .container .list {
+  display: flex;
+  gap: 70px;
+}
+footer .container .list .lis1 {
+  width: 320px;
+}
+
+@media (max-width: 476px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .bars {
+    font-size: 30px;
+    display: block;
+  }
+  .nav_info {
+    display: none;
+  }
+  .hero_display {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .hero_info {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hero_display img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .list {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
