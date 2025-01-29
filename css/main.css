@@ -18,6 +18,10 @@ ul {
 ul a {
   text-decoration: none;
   color: black;
+  transition: all 0.3s ease;
+}
+ul a:hover {
+  color: blue;
 }
 
 .btn {
@@ -131,12 +135,10 @@ nav .nav_display ul {
 }
 
 .sec_thr {
-  margin-top: 60px;
-  color: white;
-}
-.sec_thr .container {
   background-color: #00BAFC;
   padding: 35px 0px;
+  margin-top: 60px;
+  color: white;
 }
 .sec_thr .se_thr_let {
   text-align: center;
@@ -173,7 +175,7 @@ nav .nav_display ul {
   display: none;
 }
 
-footer .container {
+footer {
   padding: 50px;
   background-color: #191919;
   color: white;
